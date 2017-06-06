@@ -1,0 +1,281 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css);
+html {
+  background: #000;
+}
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: #555555;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+.lead {
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  color: #00aeef;
+  text-decoration: none;
+  outline: 0;
+  line-height: inherit;
+}
+a:hover {
+  color: #001e31;
+}
+header {
+  color: #000;
+  background: #fff;
+}
+.logos {
+  margin-top:15px;
+}
+.navbar {
+  margin-bottom: 0;
+  min-height: 42px;
+  font-weight: 700;
+  -webkit-backface-visibility: hidden;
+}
+.navbar-nav > li {
+  padding-bottom: 0;
+  white-space: nowrap;
+  float: none;
+}
+.navbar-custom .navbar-nav li > a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a {
+  background-color: #000000;
+}
+.navbar-custom .dropdown-menu {
+  right: 0;
+}
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+  border-top-color: #999999;
+  border-bottom-color: #999999;
+}
+.navbar-collapse.in {
+  overflow-y: visible;
+}
+.navbar-toggle {
+  outline: 0;
+}
+.divider {
+  height: 100px;
+}
+.panel {
+  border-width: 0;
+}
+.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.dropdown-menu {
+  background: #2e2e2e;
+}
+.dropdown-menu > li > a {
+  color: #dddddd;
+}
+.dropdown-menu > li > a:hover {
+  color: #dddddd;
+}
+.carousel {
+  height: 500px;
+  margin-bottom: 10px;
+}
+.carousel-caption h1 {
+  color: #fff;
+  text-shadow: 0px 3px 0px #666,
+               0px 14px 10px rgba(0,0,0,0.15),
+               0px 24px 2px rgba(0,0,0,0.1),
+               0px 34px 30px rgba(0,0,0,0.1);
+}
+.carousel-caption p {
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.carousel-caption {
+  z-index: 10;
+}
+.carousel .item {
+  height: 510px;
+}
+.carousel-wrapper {
+  width: 100%;
+  background: #333;
+}
+.carousel-control.left, .carousel-control.right {
+  background: none;
+}
+/* Page jump fix */
+.pagejump:before {
+  display: block;
+  content: " ";
+  margin-top:-100px;
+  height: 100px;
+  visibility: hidden;
+}
+#wufoo-zmz7ets09cwypd {
+  padding-top:20px;
+}
+/* ------------- */
+.scroll-top {
+  font-size: 24px;
+  position: fixed;
+  z-index: 100;
+  right: 6%;
+  bottom: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background: #2e2e2e;
+}
+.scroll-top a:link, .scroll-top a:visited {
+  color: #8db600;
+}
+.scroll-top a:hover {
+  background: #2e2e2e;
+}
+.page_title {
+    border-bottom: 2px solid #8db600;
+    display: inline-block;
+}
+.servicesimg {
+  margin-top:25px;
+}
+/* Testimonials */
+.testimonials blockquote {
+    background: #f4f4f4 none repeat scroll 0 0;
+    border: medium none;
+    color: #666;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 15px;
+    margin-top:10px;
+}
+.testimonials .carousel-info img {
+    border: 1px solid #ddd;
+    border-radius: 150px !important;
+    height: 75px;
+    padding: 3px;
+    width: 75px;
+}
+.testimonials .carousel-info {
+    overflow: hidden;
+}
+.testimonials .carousel-info img {
+    margin-right: 15px;
+}
+.testimonials .carousel-info span {
+    display: block;
+}
+.testimonials span.testimonials-name {
+    color: #8db600;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 23px 0 0px;
+}
+.testimonials span.testimonials-post {
+    color: #656565;
+    font-size: 14px;
+}
+footer {
+  height: 60px;
+  margin-top: 50px;
+  padding-top: 20px;0
+  padding-bottom: 20px;
+}
+footer {
+  background-color: #8db600;
+}
+footer p {
+  padding-left: 10px;
+  color: #000;
+}
+footer a {
+  color: #000;
+}
+footer a:hover {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.footer_number {
+  margin-left:10px;
+  color: #fff;
+}
+/* landscape tablets */
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .header_phone {
+    font-size:16px;
+  }
+}
+/* Portrait tablets */
+@media (min-width: 768px) and (max-width: 979px) {
+  .carousel-caption h1 {
+    font-size: 28px;
+  }
+  .carousel-caption p {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+  .navbar-nav.nav-justified > li {
+    float: none;
+  }
+  .nav > li > a {
+    padding: 10px;
+  }
+  .header_phone {
+    font-size: 16px;
+    line-height: 18px;
+    width: 160px;
+    margin-top:25px;
+  }
+  .header_phone span {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .logos {
+    margin-top: 30px;
+  }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .header_phone {
+    font-size:16px;
+  }
+  blockquote {
+    font-size:14px;
+  }
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  .header_phone {
+    font-size:12px;
+    line-height: 19px;
+    width:110px;
+    margin-top:20px;
+  }
+  .header_phone span {
+    font-size:27px;
+    line-height: 30px;
+  }
+}
+/* Are there really phones this crap still!? */
+@media (max-width: 320px) {
+  .header_phone {
+    display: none;
+  }
+}
+.landing h1 {
+  font-size:60px;
+  margin-bottom: 0;
+}
+.landing h2 {
+  margin-top:0;
+}
